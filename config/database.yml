@@ -19,6 +19,8 @@ default: &default
 
 development:
   <<: *default
+  password: root
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
   database: kubestest_development
 
 # Warning: The database defined as "test" will be erased and
